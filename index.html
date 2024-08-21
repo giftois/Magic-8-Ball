@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic-8-Ball</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="greeting">Welcome to the Magic 8-Ball</h1>
+    </header>
+    <main id="content-container">
+        <div>
+            <h2>Type any question for the Magic 8-Ball and receive an instant response!
+                <span id="emphasis"><br>Start by typing "Hello 8-Ball"</span>
+            </h2>
+            <input id="question-box" type="text" name="question" placeholder="Type your question here:" value="">
+            <button id="submit-button">Ask</button>
+            <input type="text" name="name" id="name" placeholder="Your Name">
+        </div>
+        <div id="response-box"></div>
+    </main>
+</body>
+</html>
